@@ -27,11 +27,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_LEFT
 // #define MASTER_RIGHT
 // #define EE_HANDS
-//#define TAPPING_FORCE_HOLD
-//#define TAPPING_TERM 100
+
+// Duel Keys
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM 200
 
 // Mouse Shit
-#define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_MAX_SPEED 6
+#define MOUSEKEY_TIME_TO_MAX 50
+#define MOUSEKEY_MOVE_DELTA 4
 
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
